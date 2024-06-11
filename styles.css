@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+header {
+    background-color: rgb(165, 42, 42);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #220000;
+    font-size: 30px;
+}
+
+
+
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 375px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#img-1 {
+    background-image: url('../img/guitarra_tagima_eapro3_fiesta_red_edu_ardanuy_23041_1_a732bcfa2dafd95437ffd800145cfe74.webp');
+}
+
+#img-2 {
+    background-image: url('../img/guitarra_les_paul_newen_frizz_black_23269_1_1fb02c2b40b7867dd9a9970a5b9cb830.webp');
+}
+
+#img-3 {
+    background-image: url('../img/guitarra_tagima_stella_dw_strato_transparent_blue_357_1_6380c0a5131cfc355bbe6a26670619e3.webp');
+}
+
+
+h3 {
+    color: brown;
+    border-left: 3px solid #3b0606;
+    padding-left: 7px;
+    font-size: 22px;
+}
+
+p {
+    color: #000000;
+    font-size: x-large;
+
+}
+
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.50s;
+}
+
+.btn:hover {
+    background-color: #380909;
+}
+
+footer {
+    background-color: brown;
+    color: #ffffff;
+    border-top: 3px solid #3b0606;
+    text-align: center;
+    padding: 80px;
+}
